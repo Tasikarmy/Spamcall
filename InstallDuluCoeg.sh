@@ -14,22 +14,26 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
+pkg install figlet
+pkg install toilet
+clear
 echo -e $blue "Bismillah dulu Gans"
 echo -e $cyan "╯▅╰╱▔▔▔▔▔▔▔╲╯╯☼"
 echo -e $cyan "▕▕╱╱╱╱╱╱╱╱╱╲╲╭╭"
 echo -e $cyan "▕▕╱╱╱╱╱╱╱╱┛▂╲╲╭"
 echo -e $cyan "╱▂▂▂▂▂▂╱╱┏▕╋▏╲╲"
-sleep 1
+sleep 3
 echo -e $cyan "▔▏▂┗┓▂▕▔┛▂┏▔▂▕▔"
 echo -e $cyan "▕▕╋▏▕╋▏▏▕┏▏▕╋▏▏"
 echo -e $cyan "▕┓▔┗┓▔┏▏▕┗▏┓▔┏▏"
 echo -e $red  "Waktunya ngopi"
-sleep 2
+sleep 4
 echo -e $m    "▄▀▀ ▄▀▄ █▄░█ ▀█▀ █░█ ▀▄░▄▀"
 echo -e $m    "░▀▄ █▀█ █░▀█ ░█░ █░█ ░░█░░"
 echo -e $m    "▀▀░ ▀░▀ ▀░░▀ ░▀░ ░▀░ ░░▀░░"
 figlet install | lolcat
 sleep 4
+clear
 echo -e $bu " Menginstal..."
 pkg install php
 pkg install wget

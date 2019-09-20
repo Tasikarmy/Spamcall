@@ -46,4 +46,4 @@ pip2 install termcolor
 clear
 echo -e $red " Sedang Masuk Tols"
 sleep 4
-php Spammer.php
+php spammer.php

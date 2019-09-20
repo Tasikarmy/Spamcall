@@ -37,7 +37,7 @@ pkg install figlet
 pkg install toilet
 pkg install python
 pkg install ruby
-PKG install wget openssl-tool proot -y
+pkg install wget openssl-tool proot -y
 gem install lolcat
 pip2 install requests
 pip2 install mechanize
